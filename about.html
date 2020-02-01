@@ -1,63 +1,59 @@
+
+
 <!doctype html>
 <html lang="en">
   <head>
-   
-    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="/assets/favicon/cooper-icon.png"/>
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon/cg-favi.png"/>
     <title>Coop Group Robotics</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
+    <!-- logo -->
+  <center><img src ="/assets/cg-favi.png" style="width: 100px; height: 100px;"> </center>
     <!-- Nav -->
-    <div class="nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  
+
+
+
   <div class="collapse navbar-collapse" id="navbarToggler">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/signup.html">Sign Up</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/dates.html" tabindex="-1" aria-disabled="true">Dates</a>
-            <li class="nav-item">
+            <li class="nav-item active">
         <a class="nav-link" href="/about.html" tabindex="-1" aria-disabled="true">About CoopGroup</a>
       </li>
     </ul>
   </div>
 </nav>
+ <!-- Loading -->
+ <center id="loading">
+    <div class="spinner-border" role="status">
+  <span class="sr-only"> </span>
 </div>
-    <!-- jumbotron -->
-    <div class="container-fluid">
-      <div class="jumbotron">
-  
-  <h1 class="display-4">Welcome to Coop Group Robotics!</h1>
-  <p class="lead">I'm Cooper, the founder of Coop Group Robotics, a fun and educational</p>
-  <a class="btn btn-primary btn-lg" href="/about.html" role="button">Learn more</a>
-  
-</div>
-</div>
+<h2><span id="loading-text"></span></h2>
+</center>
+  <div id="content">
+  <img class="coop-img" src= "https://images.squarespace-cdn.com/content/v1/5e2b1aa7509d4862f6e41437/1580048019101-X6ADZYVLYSB7R30PLJBG/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_9330.JPG">
+  </div>
 
-   <video autoplay muted loop id="myVideo">
-  <source src="/assets/trash.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-
-
-    <!-- Bootstrap -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
+    <!-- Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
 </html>

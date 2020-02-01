@@ -1,0 +1,15 @@
+
+
+.sr-only{
+  width: 50%;}
+.jumbotron:hover{background-color:aqua;
+ transition: 0.5s;
+}
+.jumbotron{ transition: 0.5s;}
+
+ #myVideo {
+ 
+  right: 0;
+  bottom: 0;
+  min-width: 25%; 
+  min-height: 25%;}
