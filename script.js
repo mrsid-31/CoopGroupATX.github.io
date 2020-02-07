@@ -12,5 +12,4 @@ if(tf == true) {
 loading(true);
 setTimeout( function() {
 loading(false);
-/* do something or nothing; this waits for a second because 1000 milliseconds have been passed */
 }, 1500);

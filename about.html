@@ -1,4 +1,4 @@
-
+  
 
 <!doctype html>
 <html lang="en">
@@ -12,6 +12,34 @@
     <link rel="shortcut icon" type="image/png" href="/assets/favicon/cg-favi.png"/>
     <title>Coop Group Robotics</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('hpypvgw5nyzz');
+</script>
+<!-- End of Async Drift Code -->
   </head>
   <body>
     <!-- logo -->
@@ -40,6 +68,7 @@
     </ul>
   </div>
 </nav>
+
  <!-- Loading -->
  <center id="loading">
     <div class="spinner-border" role="status">
@@ -52,6 +81,7 @@
   <img class="coop-img" src= "https://images.squarespace-cdn.com/content/v1/5e2b1aa7509d4862f6e41437/1580048019101-X6ADZYVLYSB7R30PLJBG/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_9330.JPG">
   </center>
   </div>
+    
 
     <!-- JS -->
     <script src="script.js"></script>
