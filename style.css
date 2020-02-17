@@ -6,3 +6,8 @@
  transition: 0.5s;
 }
 .jumbotron{ transition: 0.5s;}
+
+#yt-iframe {
+    width: 100%;
+    height: 60%;
+}
