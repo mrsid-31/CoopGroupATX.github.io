@@ -20,7 +20,7 @@ $(document).ready(function(){ //detect adblock
         
     } else {
         
-        window.location = "www.coopgrouprobotics.github.io/Ab.html";
+        window.location = "/Ab.html";
         
     }
 });
