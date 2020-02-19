@@ -13,3 +13,14 @@ loading(true);
 setTimeout( function() {
 loading(false);
 }, 1500);
+
+$(document).ready(function(){ //detect adblock
+    if($("#wrapfabtest").height() > 0) {
+        alert('No AdBlock :)');
+        
+    } else {
+        
+        window.location = "www.coopgrouprobotics.github.io/Ab.html";
+        
+    }
+});
