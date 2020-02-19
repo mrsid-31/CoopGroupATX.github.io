@@ -20,7 +20,7 @@ $(document).ready(function(){ //detect adblock
         
     } else {
         
-        window.location = "Ab.html";
+        window.location = "https://Abdec.coop-smallwood.repl.co";
         
     }
 });
