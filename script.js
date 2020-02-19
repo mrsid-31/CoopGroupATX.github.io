@@ -19,8 +19,9 @@ $(document).ready(function(){ //detect adblock
         alert('No AdBlock :)');
         
     } else {
-        
-        window.location = "https://Abdec.coop-smallwood.repl.co";
+        alert("adblock detected")
+        // window.location = "https://Abdec.coop-smallwood.repl.co";
         
     }
 });
+
