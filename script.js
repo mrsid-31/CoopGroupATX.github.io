@@ -1,3 +1,4 @@
+var adblock_detected;
 function loading(tf) {
 
 if(tf == true) {
@@ -14,14 +15,7 @@ setTimeout( function() {
 loading(false);
 }, 1500);
 
-$(document).ready(function(){ //detect adblock
-    if($("#wrapfabtest").height() > 0) {
-        alert('No AdBlock :)');
-        
-    } else {
-        alert("adblock detected")
-        // window.location = "https://Abdec.coop-smallwood.repl.co";
-        
-    }
-});
+
+
+
 
