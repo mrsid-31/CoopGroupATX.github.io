@@ -1,4 +1,4 @@
-var adblock_detected;
+
 function loading(tf) {
 
 if(tf == true) {
