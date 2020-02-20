@@ -1,3 +1,3 @@
 if(!document.getElementById('icWrDJsGRnTp')){
-  $('.AdblockModal').modal('show')
+  $('#AdblockModal').modal('show')
 }
