@@ -2,7 +2,7 @@
 
 .sr-only{
   width: 50%;}
-.jumbotron:hover{background-color:aqua;
+.jumbotron:hover{background-color:blue;
  transition: 0.5s;
 }
 .jumbotron{ transition: 0.5s;}
@@ -14,3 +14,14 @@
 body {
 border: 5px solid white;
 }
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+.about-section:hover{background-color: black;
+ transition: 0.5s;
+}
+
+.about-section{transition: 0.5s;}
