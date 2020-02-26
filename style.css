@@ -4,6 +4,7 @@
   width: 50%;}
 .jumbotron:hover{background-color:blue;
  transition: 0.5s;
+ color: white;
 }
 .jumbotron{ transition: 0.5s;}
 
