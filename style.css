@@ -2,10 +2,12 @@
 
 .sr-only{
   width: 50%;}
-.jumbotron:hover{background-color:blue;
+
+.jumbotron:hover{
+background-color:blue;
  transition: 0.5s;
  color: white;
-}
+ }
 .jumbotron{ transition: 0.5s;}
 
 #yt-iframe {
@@ -27,4 +29,13 @@ border: 5px solid white;
 
 .about-section{transition: 0.5s;}
 
-
+.typewrite > .wrap { 
+  --keyframe-color: blue;
+   border-right: 0.08em solid blue; 
+   animation: 
+     blink-caret .5s step-end infinite; 
+ }
+   @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--keyframe-color); }
+}
