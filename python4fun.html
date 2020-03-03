@@ -8,3 +8,148 @@
       <p>One Second...</p>
    </body>
 </html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/assets/cg-favi.png"/>
+    <title>Coop Group Robotics</title>
+  <script src="tawk.js"></script>
+  
+      </head>
+  <body>
+    <!-- logo -->
+    <center><img src ="/assets/cg-favi.png" style="width: 100px; height: 100px;"> </center>
+   <!-- Nav -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarToggler">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="/index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/signup.html">Sign Up</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/supportus.html">Support Us</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/dates.html" tabindex="-1" aria-disabled="true">Dates</a>
+            <li class="nav-item">
+        <a class="nav-link" href="/about.html" tabindex="-1" aria-disabled="true">About CoopGroup</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+    <!-- jumbotron -->
+    <div class="container-fluid">
+      <div class="jumbotron">
+
+  <h1 class="display-4">
+     <a class="typewrite" data-period="2000" data-type='[ "Welcome to Coop Group Robotics!" ]'>
+    <span class="wrap"></span>
+  </a>
+  </h1>
+
+  <p class="lead">I'm Cooper, the founder of Coop Group Robotics, a fun and educational Robotics Club.</p>
+  <a class="btn btn-primary btn-lg" href="/about.html" role="button">About Us</a>
+  <a class="btn btn-primary btn-lg" href="/signup.html" role="button">Sign Up</a>
+  <a class="btn btn-primary btn-lg" href="/dates.html" role="button">Dates</a>
+    
+  <a class="btn btn-primary btn-lg" href="/supportus.html" role="button">Support Us</a>
+</div>
+
+</div>
+
+<iframe class="yt-iframe"
+  src="https://www.youtube.com/embed/b0PeBaepljw?autoplay=1"
+  frameborder="0" width="100%" height="500 "></iframe>
+
+<!-- Modal -->
+<div class="modal fade" id="AdblockModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="AdblockModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="AdblockModalLabel">Please disable your adblock</h5>
+      </div>
+      <div class="modal-body">
+        We need you to disable your adblock so all features of this website will work properly. <b> We do not serve ads </b>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- JS -->
+  <!-- Bootstrap -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="/ads.js" type="text/javascript"></script>
+      <script src="/adblock_checker.js" type="text/javascript"></script>
+      <script>
+        var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+    };
+    </script>
+  </body>
+</html>
