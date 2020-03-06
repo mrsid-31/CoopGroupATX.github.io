@@ -26,7 +26,14 @@
   <h2 style="font-family: monospace; color: #000;"><a class="typewrite" data-period="2000" data-type='[ "It looks like your little robot has lost its way." ]'></a><span class="wrap"></span> <br><br> <a href="/index.html"  class="typewrite" data-period="2000" data-type='[ "Go back to the start?"  ]'></a>
   <span class="wrap"></span></h2>
   
-<img src = "otto.png" height="745" width="1000"> </img>
+<img id="otto" src = "otto.png" class="img-fluid" height="745" width="1000"> </img>
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+document.getElementById("otto").classList.add('img-fluid');
+document.getElementsByTagName("otto")[0].removeAttribute("width");
+document.getElementsByTagName("otto")[0].removeAttribute("height");
+}
+</script>
 </center>
 <script>
         var TxtType = function(el, toRotate, period) {
