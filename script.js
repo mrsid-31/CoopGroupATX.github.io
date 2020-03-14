@@ -1,3 +1,4 @@
+var ip = $get("uip").innerHTML;
 
 function loading(tf) {
 
