@@ -1,5 +1,3 @@
-var ip = $get("uip").innerHTML;
-
 function loading(tf) {
 
 if(tf == true) {
