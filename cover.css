@@ -1,3 +1,28 @@
+	#videoBG {
+			position: fixed;
+			align: center;
+			min-width: 100%;
+			min-height: 100%;
+			opacity: 25%;
+			bottom: 0;
+			right: 0;
+			z-index: -1;
+		}
+
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
 /*
  * Globals
  */
