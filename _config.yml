@@ -16,16 +16,17 @@ teespring: coopgroup-2
 
 # Authors
 authors:
-  
-
   - name: Cooper Smallwood
     avatar: 'assets/images/cooper.jpg'
     email: cooper.smallwood0@gmail.com
     description: Hi my name is Cooper. Ever since I was three, I loved coding and robotics. One day, I had an idea to create a robotics club and this is the result.
+  
   - name: Reese Armstrong
     avatar: 'assets/images/reese.jpg'
     description: I'm Reese Armstrong an instructor here who loves helping people with technology, *NIX, and other technologies. I even helped make this website! 
     youtube: UCzXRd1MPx__6JjHAeP_9AIA
+    github: reesericci
+    
 # Navigation
 nav:
 - name: Home
