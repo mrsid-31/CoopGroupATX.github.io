@@ -16,7 +16,7 @@ comments: false
   </div>
   <div class="col-md-auto"> 
       <h4><a target="_blank" {% if author.web %} href="{{ author.web }}" style="color : #133DFF;"{% endif %}>About {{ author.name }}</a></h4>
-      {% if author.role %}<h5><i>{{ author.role }}<i></h4> {% endif %}
+      {% if author.role %}<h6><i>{{ author.role }}</i></h6> {% endif %}
       {% if author.email %}<a target="_blank" href="mailto://{{ author.email }}" class="btn-sm"><i class="fas fa-envelope"></i></a>{% endif %}
       {% if author.github %}<a target="_blank" href="https://github.com://{{ author.github }}" class="btn-sm"><i class="fab fa-github"></i></a>{% endif %}
       {% if author.twitter %}<a target="_blank" href="https://twitter.com://{{ author.twitter }}" class="btn-sm"><i class="fab fa-twitter"></i></a>{% endif %}
