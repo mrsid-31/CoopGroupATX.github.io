@@ -1,0 +1,83 @@
+# Site
+name: "CoopGroup Robotics"
+title: "CoopGroup Robotics"
+description: "CoopGroup Robotics is a free robotics club based in ATX. For kids, by kids."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl:
+mailchimp-list: 'dced7714debf2e05cca0e3abb&id=165be60432'
+include: ["_pages"]
+permalink: /:title/
+github: CoopGroupRobotics
+twitter: coop_group
+discord: ZGxA46u
+patreon: coopgroup
+teespring: coopgroup-2
+
+# Authors
+authors:
+  - name: Reese Armstrong
+    avatar: 'assets/images/reese.jpg'
+    description: I'm Reese Armstrong an instructor here who loves helping people with technology, *NIX, and other technologies. I even helped make this website! (P.S. I'm on top because I made the website, too bad so sad, Cooper.)
+    github: reesericci
+    youtube: UCzXRd1MPx__6JjHAeP_9AIA
+
+  - name: Cooper Smallwood
+    avatar: 'assets/images/cooper.jpg'
+    email: cooper.smallwood0@gmail.com
+    description: Hi my name is Cooper. Ever since I was three, I loved coding and robotics. One day, I had an idea to create a robotics club and this is the result.
+   
+# Navigation
+nav:
+- name: Home
+  link: /
+- name: Support Us
+  link: /support-us
+- name: About
+  link: /about
+- name: Sign Up
+  link: /sign-up
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-figure
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+highlighter: none
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+
+
+
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+# Post Author Box ("enabled" or "disabled")
+authorbox: "enabled"
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
