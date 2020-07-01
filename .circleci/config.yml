@@ -44,7 +44,8 @@ jobs:
               --allow-hash-href \
               --check-favicon  \
               --check-html \
-              --disable-external
+              --disable-external \
+              --url-ignore
       - persist_to_workspace:
           root: ./
           paths:
