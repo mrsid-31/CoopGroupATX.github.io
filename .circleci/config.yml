@@ -1,0 +1,50 @@
+defaults: &defaults
+  working_directory: ~/repo
+version: 2
+jobs:
+  build:
+    <<: *defaults
+    docker:
+      - image: circleci/ruby:2.5
+    environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle
+    steps:
+      - run:
+          name: Configure Bundler
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler  
+      - checkout
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
+      - run:
+          name: Remove old site & Gemfile.lock
+          command: |
+            rm Gemfile.lock
+            rm -rf site
+            
+      - run:
+          name: Bundle
+          command: bundle check || bundle || bundle install
+      - save_cache:
+          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run:
+          name: Jekyll build
+          command: bundle exec jekyll build
+      - run:
+          name: Push to GH
+          command: bash ./circleci/push.sh          
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
+workflows:
+  version: 2
+  build:
+    jobs:
+      - deploy
