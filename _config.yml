@@ -46,6 +46,8 @@ nav:
   link: /about
 - name: Sign Up
   link: /sign-up
+- name: Dates
+  link: /dates
 
 # Plugins
 plugins:
