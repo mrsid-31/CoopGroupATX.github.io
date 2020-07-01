@@ -7,7 +7,7 @@ jobs:
     docker:
       - image: circleci/ruby:2.5
     environment:
-      - BUNDLE_VERSION: 2.1.4
+      - BUNDLER_VERSION: 2.1.4
       - BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
       - checkout
