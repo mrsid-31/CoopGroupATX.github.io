@@ -20,4 +20,5 @@ This is the repository that contains all of the code we used to make our website
 `/_sass` - don't touch scss (unless you know what you're doing, unlike us :) )
 `/site` - generated html/css/js
 
-We used the [Memoirs Jekyll Theme](https://github.com/wowthemesnet/memoirs-jekyll-theme) by @wowthemesnet on github. Very nice theme, easy to work with.
+
+##### We used the [Memoirs Jekyll Theme](https://github.com/wowthemesnet/memoirs-jekyll-theme) by @wowthemesnet on github. Very nice theme, easy to work with.
