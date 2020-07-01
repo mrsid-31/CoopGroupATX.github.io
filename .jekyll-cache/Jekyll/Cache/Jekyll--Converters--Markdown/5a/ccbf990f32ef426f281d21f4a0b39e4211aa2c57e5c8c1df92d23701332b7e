@@ -1,0 +1,38 @@
+I"ô
+<div class="d-flex authorbox align-items-center">
+  <div class="col-md-auto mr-4 text-center">
+      
+      <img class="author-thumb" src="/assets/images/cooper.jpg" alt="Cooper Smallwood" />
+      
+  </div>
+  <div class="col-md-auto"> 
+      <h4><a target="_blank">About <strong>Cooper Smallwood</strong></a></h4>
+      <h6 style="font-size: 20px;"><i>Founder</i></h6> 
+      <a target="_blank" href="mailto://cooper.smallwood0@gmail.com" class="btn-sm"><i class="fas fa-envelope"></i></a>
+      
+      
+              
+      <a target="_blank" href="https://youtube.com/channel/UCQ_jWBRns1bQWy0VH_zmrlA" class="btn-sm"><i class="fab fa-youtube"></i></a> 
+      <span class="author-description d-block mt-2">Hi my name is Cooper. Ever since I was three, I loved coding and robotics. One day, I had an idea to create a robotics club and this is the result.</span>            
+  </div>
+</div>
+
+<div class="d-flex authorbox align-items-center">
+  <div class="col-md-auto mr-4 text-center">
+      
+      <img class="author-thumb" src="/assets/images/reese.jpg" alt="Reese Armstrong" />
+      
+  </div>
+  <div class="col-md-auto"> 
+      <h4><a target="_blank">About <strong>Reese Armstrong</strong></a></h4>
+      <h6 style="font-size: 20px;"><i>Chief Instructor</i></h6> 
+      
+      <a target="_blank" href="https://github.com://reesericci" class="btn-sm"><i class="fab fa-github"></i></a>
+      
+              
+      <a target="_blank" href="https://youtube.com/channel/UCzXRd1MPx__6JjHAeP_9AIA" class="btn-sm"><i class="fab fa-youtube"></i></a> 
+      <span class="author-description d-block mt-2">I'm Reese Armstrong an instructor here who loves helping people with technology, *NIX, and other technologies. I even helped make this website!</span>            
+  </div>
+</div>
+
+:ET
