@@ -1,0 +1,17 @@
+---
+layout: page
+title: What A Meeting Looks Like
+permalink: /wamll
+comments: false
+---
+
+{% for wamll in site.wamll %}
+ 
+ <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{wamll.image}}" >
+  <div class="card-body">
+    <b><h5 class="card-title">{{wamll.title}}</h5></b>
+    <p class="card-text">{{wamll.info}}</p>
+  </div>
+</div>
+{% endfor %}
