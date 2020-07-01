@@ -4,14 +4,15 @@ title: Dates
 permalink: /dates
 comments: false
 ---
-<div class="row">
-{% for dates in site.dates %}
-<div class="col-sm-6">
+<div class="row row-cols-1 row-cols-md-3">
+{% for date in site.dates %}
+<div class="col mb-4">
   <div class="card" style="width: 18rem;">
-   <img class="card-img-top" src="{{dates.image}}" alt="{{alt.image}}">
+   <img class="card-img-top" src="{{date.image}}" alt="{{date.alt}}">
    <div class="card-body">
-     <b><h5 class="card-title">{{dates.title}}</h5></b>
-     <p class="card-text">{{dates.info}}</p>
+     <b><h5 class="card-title">{{date.title}}</h5></b>
+     <p class="card-text">{{date.info}}</p>
+   </div>
   </div>
 </div>
  
