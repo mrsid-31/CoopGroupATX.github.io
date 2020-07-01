@@ -4,14 +4,17 @@ title: Dates
 permalink: /dates
 comments: false
 ---
-
+<div class="row">
 {% for dates in site.dates %}
- 
- <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="{{dates.image}}" alt="{{alt.image}}">
-  <div class="card-body">
-    <b><h5 class="card-title">{{dates.title}}</h5></b>
-    <p class="card-text">{{dates.info}}</p>
+<div class="col-sm-6">
+  <div class="card" style="width: 18rem;">
+   <img class="card-img-top" src="{{dates.image}}" alt="{{alt.image}}">
+   <div class="card-body">
+     <b><h5 class="card-title">{{dates.title}}</h5></b>
+     <p class="card-text">{{dates.info}}</p>
   </div>
 </div>
+ 
 {% endfor %}
+</div>
+ 
