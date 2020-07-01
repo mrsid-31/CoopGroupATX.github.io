@@ -1,7 +1,7 @@
 # Site
 name: "CoopGroup Robotics"
-title: "CoopGroup Robotics"
-description: "CoopGroup Robotics is a free coding club based in ATX. For kids, by kids."
+title: "CoopGroup"
+description: "CoopGroup is a free coding club based in ATX. For kids, by kids."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl:
