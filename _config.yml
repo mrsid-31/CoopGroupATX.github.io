@@ -29,7 +29,13 @@ authors:
     description: I'm Reese Armstrong an instructor here who loves helping people with technology, *NIX, and other technologies. I even helped make this website! 
     youtube: UCzXRd1MPx__6JjHAeP_9AIA
     github: reesericci
-    
+dates:
+  - image: https://cdn.instructables.com/FOF/WVU6/JN3HXMRV/FOFWVU6JN3HXMRV.LARGE.jpg?auto=webp&frame=1&width=700&fit=bounds
+    alt: Otto Photo
+    title: Otto Coding
+    info: Programing 3D printed robots(complete). 
+  
+
 # Navigation
 nav:
 - name: Home
