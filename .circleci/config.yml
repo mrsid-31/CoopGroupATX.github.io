@@ -15,15 +15,21 @@ jobs:
             echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
             source $BASH_ENV
             gem install bundler  
-      
       - checkout
       - restore_cache:
           keys:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
             - rubygems-v1-fallback
       - run:
+          name: Remove Gem lock / Bundle & Remove old site
+          command: |
+            rm Gemfile.lock
+            rm -rf site
+            bundle
+            
+      - run:
           name: Bundle Install
-          command: bundle check || bundle install --full-index || bundle update addressable || bundle install --full-index
+          command: bundle check || bundle --full index || bundle install
       - save_cache:
           key: rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
