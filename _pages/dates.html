@@ -8,7 +8,7 @@ comments: false
 <div class="row">
 {% for date in site.dates %}
 <div class="col-md-6" style="margin-bottom: 2rem;">
-  <div class="card" style="width: 18rem; height: 30rem;">
+  <div class="card" style="width: 18rem;">
    <img class="card-img-top" src="{{date.image}}" alt="{{date.alt}}">
    <div class="card-body">
      <b><h5 class="card-title">{{date.title}}</h5></b> {% if date.completed ==true %} <span class="badge badge-primary">Completed</span> {% endif %}
