@@ -33,10 +33,11 @@ jobs:
           paths:
             - vendor/bundle
       - run:
-          name: Remove old site, Build new site
+          name: Jekyll build
           command: |
-          rm -rf site
-          bundle exec jekyll build
+            rm -rf site
+            bundle exec jekyll build
+      
       - run:
           name: Push to GH
           command: bash ./.circleci/push.sh
