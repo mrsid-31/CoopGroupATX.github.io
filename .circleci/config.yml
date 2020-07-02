@@ -21,29 +21,25 @@ jobs:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
             - rubygems-v1-fallback
       - run:
-          name: Remove old site & Gemfile.lock
+          name: Bundle
           command: |
             rm Gemfile.lock
-            rm -rf site
             bundle
+            bundle check
+            bundle install
             
-      - run:
-          name: Bundle
-          command: bundle check || bundle install
       - save_cache:
           key: rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
       - run:
-          name: Jekyll build
-          command: bundle exec jekyll build
+          name: Remove old site, Build new site
+          command: |
+          rm -rf site
+          bundle exec jekyll build
       - run:
           name: Push to GH
-          command: bash ./.circleci/push.sh          
-      - persist_to_workspace:
-          root: ./
-          paths:
-            - _site
+          command: bash ./.circleci/push.sh
 workflows:
   version: 2
   build:
