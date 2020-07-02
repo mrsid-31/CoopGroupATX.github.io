@@ -28,7 +28,7 @@ jobs:
             
       - run:
           name: Bundle
-          command: bundle && bundle check && bundle install
+          command: gem install bundle && bundle && bundle check && bundle install
       - save_cache:
           key: rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
