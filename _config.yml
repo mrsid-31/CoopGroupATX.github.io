@@ -37,12 +37,27 @@ authors:
 
 # Dates
 dates:
+
+    
+ - image: https://lh3.googleusercontent.com/_4zBNFjA8S9yjNB_ONwqBvxTvyXYdC7Nh1jYZ2x6YEcldBr2fyijdjM2J5EoVdTpnkA
+    alt: Customizing Discord
+    title: Customizing Discord
+    info: We used Bandaged-BD to build custom themes and plugins for discord.
+    completed: true
+    margin-left: true
+ - image: https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+    alt: Web-Design
+    title: Web-Developer
+    info: We learned html,css and js, the basics of web-development.
+    completed: true
+    margin-left: false
+    
   - image: https://www.autoauto.ai/wp/wp-content/uploads/2020/05/4386785.jpg
     alt: Self Driving Minuture Car Programming
     title:  Self Driving Minuture Car Programming
     info: Students use Auto-Auto AI cars to learn python.
     completed: true
-    margin_left: false
+    margin_left: true
   
   - image: https://cdn.instructables.com/FOF/WVU6/JN3HXMRV/FOFWVU6JN3HXMRV.LARGE.jpg?auto=webp&frame=1&width=700&fit=bounds
     alt: Otto Photo
@@ -50,6 +65,7 @@ dates:
     info: Programing 3D printed robots (complete). 
     completed: true
     margin-left: true
+  
   
 # Navigation
 nav:
