@@ -39,7 +39,7 @@ jobs:
           command: bundle exec jekyll build
       - run:
           name: Push to GH
-          command: bash ./circleci/push.sh          
+          command: bash ./.circleci/push.sh          
       - persist_to_workspace:
           root: ./
           paths:
