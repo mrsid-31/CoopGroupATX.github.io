@@ -9,6 +9,9 @@ jobs:
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "25:12:97:0f:f2:05:8b:f1:23:25:35:84:ce:dc:5b:e6"
       - run:
           name: Configure Bundler
           command: |
