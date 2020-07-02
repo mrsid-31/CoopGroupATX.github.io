@@ -41,11 +41,13 @@ dates:
     alt: Self Driving Minuture Car Programming
     title:  Self Driving Minuture Car Programming
     info: Students use Auto-Auto AI cars to learn python.
+    margin_left: false;
   
   - image: https://cdn.instructables.com/FOF/WVU6/JN3HXMRV/FOFWVU6JN3HXMRV.LARGE.jpg?auto=webp&frame=1&width=700&fit=bounds
     alt: Otto Photo
     title: Otto Coding
     info: Programing 3D printed robots (complete). 
+    margin-left: true;
   
 # Navigation
 nav:
