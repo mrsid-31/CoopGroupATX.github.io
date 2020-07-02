@@ -25,10 +25,11 @@ jobs:
           command: |
             rm Gemfile.lock
             rm -rf site
+            bundle
             
       - run:
           name: Bundle
-          command:  bundle update --bundler && bundle && bundle check && bundle install
+          command: bundle check || bundle install
       - save_cache:
           key: rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
