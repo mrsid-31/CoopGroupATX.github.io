@@ -37,15 +37,14 @@ authors:
 
 # Dates
 dates:
-
-    
- - image: https://lh3.googleusercontent.com/_4zBNFjA8S9yjNB_ONwqBvxTvyXYdC7Nh1jYZ2x6YEcldBr2fyijdjM2J5EoVdTpnkA
+  - image: https://lh3.googleusercontent.com/_4zBNFjA8S9yjNB_ONwqBvxTvyXYdC7Nh1jYZ2x6YEcldBr2fyijdjM2J5EoVdTpnkA
     alt: Customizing Discord
     title: Customizing Discord
     info: We used Bandaged-BD to build custom themes and plugins for discord.
     completed: true
     margin-left: true
- - image: https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
+  
+  - image: https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
     alt: Web-Design
     title: Web-Developer
     info: We learned html,css and js, the basics of web-development.
