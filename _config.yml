@@ -49,21 +49,20 @@ dates:
     title: Web-Developer
     info: We learned html,css and js, the basics of web-development.
     completed: true
-    margin-left: false
+    margin-left: -4rem
     
   - image: https://www.autoauto.ai/wp/wp-content/uploads/2020/05/4386785.jpg
     alt: Self Driving Minuture Car Programming
     title:  Self Driving Minuture Car Programming
     info: Students use Auto-Auto AI cars to learn python.
     completed: true
-    margin_left: true
   
   - image: https://cdn.instructables.com/FOF/WVU6/JN3HXMRV/FOFWVU6JN3HXMRV.LARGE.jpg?auto=webp&frame=1&width=700&fit=bounds
     alt: Otto Photo
     title: Otto Coding
     info: Programing 3D printed robots (complete). 
     completed: true
-    margin-left: true
+    margin-left: 4rem
   
   
 # Navigation
