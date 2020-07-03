@@ -12,14 +12,14 @@ permalink: /:title/
 # Social media networks
 social-media:
   - icon: github
-    baseurl: https://github.com/
-    username: CoopGroupATX
+    baseurl: https://github.com
+    handle: CoopGroupATX
   - icon: twitter
-    baseurl: https://twitter.com/
-    username: coop_group
+    baseurl: https://twitter.com
+    handle: coop_group
   - icon: discord
-    baseurl: https://discord.gg/
-    username: ZGxA46u
+    baseurl: https://discord.gg
+    handle: ZGxA46u
 
 # Support Us
 patreon: coopgroup

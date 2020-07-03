@@ -6,9 +6,9 @@ title: Home
 <video autoplay muted loop class="bg-video">
   <source src="{{site.baseurl}}/assets/video/otto.mp4" type="video/mp4">
 </video>
-<a href="https://github.com/{{site.github}}"><i style="margin-right: 1rem;" class="fab fa-github fa-2x"></i></a>
-<a href="https://discord.gg/{{site.discord}}"><i style="margin-left: 1rem; margin-right: 1rem;" class="fab fa-discord fa-2x"></i></a>
-<a href="https://twitter.com/{{site.twitter}}"><i style="margin-left: 1rem; margin-right: 1rem;" class="fab fa-twitter fa-2x"></i></a>
+{% for link in site.social-media %}
+<a href="{{link.baseurl}}/{{link.handle}}"><i style="margin-right: 1rem;" class="fab fa-{{link.icon}} fa-2x"></i></a>
+{% endfor %}
 <br>
 <br>
 
