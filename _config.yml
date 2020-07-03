@@ -10,9 +10,16 @@ include: ["_pages"]
 permalink: /:title/
 
 # Social media networks
-github: CoopGroupATX
-twitter: coop_group
-discord: ZGxA46u
+social-media:
+  - icon: github
+    baseurl: https://github.com/
+    username: CoopGroupATX
+  - icon: twitter
+    baseurl: https://twitter.com/
+    username: coop_group
+  - icon: discord
+    baseurl: https://discord.gg/
+    username: ZGxA46u
 
 # Support Us
 patreon: coopgroup
