@@ -10,6 +10,7 @@ $dark:    $black;
 $enable-rounded: true;
 $card-height: 100%;
 $primary-font: 'mononoki', monospace;
+$secondary-font: 'Anonymous Pro', monospace;
 
 @import "bootstrap/functions";
 @import 'bootstrap/variables';
@@ -17,6 +18,7 @@ $primary-font: 'mononoki', monospace;
 @import 'bootstrap/bootstrap';
 @import 'stars';
 @import '../fonts/mononoki.css';
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 // general
 @-ms-viewport{
@@ -409,7 +411,7 @@ img, img:hover {
         input[type="email"] {
             padding:4px 10px;
             min-width:250px;
-            font-family: $primary-font;
+            font-family: $secondary-font;
         }
 
         input[type="submit"] {
@@ -470,6 +472,7 @@ img, img:hover {
     margin-bottom:50px;
     .author-description {
         font-size:16px;
+        font-family: $secondary-font;
     }
     .author-thumb {
         width:150px;
@@ -483,6 +486,7 @@ img, img:hover {
     p {
         margin-top:30px;
         margin-bottom:30px;
+        font-family: $secondary-font;
     }
     code {
         font-size: 15px;
