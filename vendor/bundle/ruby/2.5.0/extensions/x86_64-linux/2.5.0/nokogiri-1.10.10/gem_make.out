@@ -1,5 +1,5 @@
 current directory: /home/circleci/repo/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.10/ext/nokogiri
-/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.5.0 -r ./siteconf20200706-79-1v8svrg.rb extconf.rb
+/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.5.0 -r ./siteconf20200706-89-i65s0d.rb extconf.rb
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
 Using mini_portile version 2.4.0
@@ -141,4 +141,4 @@ rm -rf /home/circleci/repo/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.10/ports
 
 current directory: /home/circleci/repo/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.10/ext/nokogiri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20200706-79-f7d6a1/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20200706-89-4tzv82/nokogiri

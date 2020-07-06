@@ -1,5 +1,5 @@
 current directory: /home/circleci/repo/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
-/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.5.0 -r ./siteconf20200706-79-1eyg3k8.rb extconf.rb
+/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.5.0 -r ./siteconf20200706-89-1dkd25r.rb extconf.rb
 creating Makefile
 
 current directory: /home/circleci/repo/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.so
 
 current directory: /home/circleci/repo/vendor/bundle/ruby/2.5.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20200706-79-wf9n1r/sassc
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20200706-89-1ezhc14/sassc

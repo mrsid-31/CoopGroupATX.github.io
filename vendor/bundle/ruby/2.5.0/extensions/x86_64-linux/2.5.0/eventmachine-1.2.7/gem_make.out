@@ -1,5 +1,5 @@
 current directory: /home/circleci/repo/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
-/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.5.0 -r ./siteconf20200706-79-1pspkaq.rb extconf.rb
+/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.5.0 -r ./siteconf20200706-89-1cra8r9.rb extconf.rb
 creating Makefile
 
 current directory: /home/circleci/repo/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
@@ -25,4 +25,4 @@ linking shared-object fastfilereaderext.so
 
 current directory: /home/circleci/repo/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20200706-79-1n7jnfo
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20200706-89-39o362
