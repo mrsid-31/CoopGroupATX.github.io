@@ -1,0 +1,45 @@
+I"œ<div class="row">
+
+<div class="col-md-6" style="margin-bottom: 2rem;">
+  <div class="card h-100" style="width: 18rem;">
+   <img class="card-img-top" src="https://lh3.googleusercontent.com/_4zBNFjA8S9yjNB_ONwqBvxTvyXYdC7Nh1jYZ2x6YEcldBr2fyijdjM2J5EoVdTpnkA" alt="Customizing Discord" />
+   <div class="card-body">
+     <b><h5 class="card-title">Customizing Discord</h5></b>  <span class="badge badge-primary">Completed</span> 
+     <p class="card-text">We used BandagedBD to customize discord with awesome themes and plugins.</p>
+   </div>
+  </div>
+</div>
+
+<div class="col-md-6" style="margin-bottom: 2rem;">
+  <div class="card h-100" style="width: 18rem;">
+   <img class="card-img-top" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ" alt="Web Development" />
+   <div class="card-body">
+     <b><h5 class="card-title">Front-end Web Development</h5></b>  <span class="badge badge-primary">Completed</span> 
+     <p class="card-text">We learned the basics of Web Development with HTML, CSS, and Javascript</p>
+   </div>
+  </div>
+</div>
+
+<div class="col-md-6" style="margin-bottom: 2rem;">
+  <div class="card h-100" style="width: 18rem;">
+   <img class="card-img-top" src="https://www.autoauto.ai/wp/wp-content/uploads/2020/05/4386785.jpg" alt="Self Driving Minuture Car Programming" />
+   <div class="card-body">
+     <b><h5 class="card-title">Self Driving Minuture Car Programming</h5></b>  <span class="badge badge-primary">Completed</span> 
+     <p class="card-text">Students use Auto-Auto AI cars to learn python.</p>
+   </div>
+  </div>
+</div>
+
+<div class="col-md-6" style="margin-bottom: 2rem;">
+  <div class="card h-100" style="width: 18rem;">
+   <img class="card-img-top" src="https://cdn.instructables.com/FOF/WVU6/JN3HXMRV/FOFWVU6JN3HXMRV.LARGE.jpg?auto=webp&amp;frame=1&amp;width=700&amp;fit=bounds" alt="Otto Photo" />
+   <div class="card-body">
+     <b><h5 class="card-title">Otto Coding</h5></b>  <span class="badge badge-primary">Completed</span> 
+     <p class="card-text">Programing 3D printed robots (complete).</p>
+   </div>
+  </div>
+</div>
+
+</div>
+
+:ET
