@@ -42,12 +42,8 @@ jobs:
             bundle exec jekyll build
        - run:
           name: HTMLProofer tests
-          command: bundle exec htmlproofer ./_site \
-              --allow-hash-href \
-              --check-favicon  \
-              --check-html \
-              --disable-external \
-              --checks_to_ignore LinkCheck
+          command: bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external --checks_to_ignore LinkCheck
+          
       - run:
           name: Push to GH
           command: bash ./.circleci/push.sh
